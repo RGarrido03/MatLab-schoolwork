@@ -2,7 +2,7 @@ clear all
 close all
 clc
 
-%% d)
+% d)
 n = 7;
 theta = 2*pi/n;
 mrot = [cos(theta),sin(theta);-sin(theta),cos(theta)];

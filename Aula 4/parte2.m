@@ -1,5 +1,5 @@
 %% Código retirado do e-learning
-% Ver o código da aula prática mais abaixo. Eu nem sei porque é que a professora nos mandou copiar este código ‍️🤷🏻‍♂️
+% Ver o código da aula prática mais abaixo. Eu nem sei porque é que a professora nos mandou copiar este código ‍️������������‍♂️
 clear all
 close all
 clc
@@ -77,7 +77,7 @@ r = rand(2,N);
 iverm = find(r(2,:)>=0.5); % Encontra os índices que são >= 0.5
 iazul = find(r(2,:)<0.5); % Encontra os índices que são < 0.5
 
-M = [2,0;0 0.5]; T = [-1;0.5];
+M = [2 0;0 0.5]; T = [-1;0.5];
 
 niter = 20;
 for i=1:niter
