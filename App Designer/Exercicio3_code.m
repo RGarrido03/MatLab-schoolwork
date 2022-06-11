@@ -30,9 +30,11 @@ classdef Exercicio3_code < matlab.apps.AppBase
         function startupFcn(app)
             y = -5:0.01:5;
             x = 30 - sqrt(25-y.^2);
-            plot(app.UIAxes,x,y,'k-')
+            y_reta = 0 * x - 2.5;
+            plot(app.UIAxes,x,y,'k-',x,y_reta,'m-')
             app.UIAxes.XLim = [min(x) max(x)];
             app.UIAxes.YLim = [min(y) max(y)];
+            app.Retay0x25Label.Text = 'Reta: y = 0x - 2.5';
         end
 
         % Value changed function: DeclivedaretaEditField
